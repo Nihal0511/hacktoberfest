@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include<stdlib.h>
+int main()
+{
+  int n,i,j,sum=0;
+  float avg;
+  printf("\n enter the  no.: ");
+  scanf("%d",&n);
+  printf("\n enter the numbers: ");
+  for(i=1; i<=n; i++)
+  {
+    scanf("%d",&j);
+    sum=sum+j;
+  }
+  avg=sum/(float)n;
+  printf("\n average : %f", avg);
+
+}
